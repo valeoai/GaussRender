@@ -24,6 +24,12 @@
   </tr>
 </table>
 
+
+## Updates:
+* 【07/07/2025】 GaussRender has been accepted to ICCV 2025.
+* 【19/03/2025】 [GaussRender](https://arxiv.org/abs/2502.05040) code has been uploaded.
+* 【07/02/2025】 [GaussRender](https://arxiv.org/abs/2502.05040) is on arxiv.
+
 # Abstract
 
 *Understanding the 3D geometry and semantics of driving scenes is critical for safe autonomous driving. Recent advances in 3D occupancy prediction have improved scene representation but often suffer from spatial inconsistencies, leading to floating artifacts and poor surface localization. Existing voxel-wise losses (e.g., cross-entropy) fail to enforce geometric coherence. In this paper, we propose GaussRender, a module that improves 3D occupancy learning by enforcing projective consistency.  Our key idea is to project both predicted and ground-truth 3D occupancy into 2D camera views, where we apply supervision. Our method penalizes 3D configurations that produce inconsistent 2D projections, thereby enforcing a more coherent 3D structure. To achieve this efficiently, we leverage differentiable rendering with Gaussian splatting. GaussRender seamlessly integrates with existing architectures while maintaining efficiency and requiring no inference-time modifications. Extensive evaluations on multiple benchmarks (SurroundOcc-nuScenes, Occ3D-nuScenes, SSCBench-KITTI360) demonstrate that GaussRender significantly improves geometric fidelity across various 3D occupancy models (TPVFormer, SurroundOcc, Symphonies), achieving state-of-the-art results, particularly on surface-sensitive metrics. The code is open-sourced at https://github.com/valeoai/GaussRender.*
@@ -41,13 +47,6 @@
     </td>
   </tr>
 </table>
-
-## Updates:
-* 【19/03/2025】 [GaussRender](https://arxiv.org/abs/2502.05040) code has been uploaded.
-* 【07/02/2025】 [GaussRender](https://arxiv.org/abs/2502.05040) is on arxiv.
-
-## ⌛ Todo:
--  Release other checkpoints.
 
 # 🚀 Main results
 
